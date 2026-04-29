@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academix Pro | 5.0 GPA Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Academix Pro</h1>
+        <p>University Student GPA Calculator (5.0 Scale)</p>
+
+        <div id="course-container">
+            <div class="row-header">
+                <span>Course</span>
+                <span>Units</span>
+                <span>Grade</span>
+            </div>
+            <div class="course-row">
+                <input type="text" class="course-code" placeholder="e.g. CSC101">
+                <input type="number" class="units" placeholder="Units" min="1">
+                <select class="grade">
+                    <option value="5">A (5)</option>
+                    <option value="4">B (4)</option>
+                    <option value="3">C (3)</option>
+                    <option value="2">D (2)</option>
+                    <option value="1">E (1)</option>
+                    <option value="0">F (0)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button onclick="addCourseRow()">+ Add Course</button>
+            <button onclick="calculateGPA()" class="calc-btn">Calculate GPA</button>
+        </div>
+
+        <div class="result-box">
+            <h3>Your CGPA</h3>
+            <h2 id="final-gpa">0.00</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
