@@ -63,3 +63,9 @@ This is a client-side educational application. It does not require a backend, da
 
 **Anthony Emmanuella Mmasinachi**  
 GitHub: https://github.com/Scarlet-Twinz
+
+## Project Links
+
+- **Repository:** https://github.com/Scarlet-Twinz/TaskManager_pro
+- **Author:** Anthony Emmanuella Mmasinachi
+- **GitHub:** https://github.com/Scarlet-Twinz
