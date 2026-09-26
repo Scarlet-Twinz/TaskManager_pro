@@ -1,4 +1,4 @@
-# Academix Pro — GPA Calculator
+#  Academix Pro — GPA Calculator
 
 A lightweight browser-based university GPA calculator built around a 5.0 grading scale.
 
